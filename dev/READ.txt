@@ -1,0 +1,27 @@
+'''
+
+기존에 있던 파일들
+main.jsx & App.jsx & index.css & App.css
+삭제 후 진행
+
+터미널 켜서
+npm install tailwindcss @tailwindcss/vite
+입력 후
+
+vite.config.js 파일에
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss()
+  ],
+})
+
+복사 후 붙여넣기
+
+'''
+
